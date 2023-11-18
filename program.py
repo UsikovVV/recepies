@@ -23,7 +23,7 @@ Boiled_eggs = [
     'eggs', 'salt'
 ]
 
-def Salads(a, b, c, d, e):
+def Salads(a, b, c, d, e, f):
     if set(a).issubset(b) is True:
         print('We can cook cod liver salad')
     else:
@@ -48,4 +48,10 @@ def Salads(a, b, c, d, e):
         print("We can't cook boiled eggs")
 
 
-print(Salads(Cod_liver_salad, products, Olivie, Crab_stick_salad, Boiled_eggs))
+    if set(f).issubset(b) is True:
+        print('We can cook vegetable salad')
+    else:
+        print("We can't cook vegetable salad")
+
+
+print(Salads(Cod_liver_salad, products, Olivie, Crab_stick_salad, Boiled_eggs, Vegetable_salad))
