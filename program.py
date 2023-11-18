@@ -16,7 +16,7 @@ Vegetable_salad = [
     'tomatoes', 'cucumbers', 'mayonnaise', 'onion'
 ]
 Crab_stick_salad = [
-    'crab sticks', 'corn', 'rise', 'eggs',
+    'crab sticks', 'corn', 'rice', 'eggs',
     'salt', 'mayonnaise'
 ]
 Boiled_eggs = [
@@ -27,4 +27,22 @@ Boiled_eggs = [
 if set(Cod_liver_salad).issubset(products) is True:
     print('We can cook cod liver salad')
 else:
-    print('We can not cook cod liver salad')
+    print("We can't cook cod liver salad")
+
+
+if set(Olivie).issubset(products) is True:
+    print('We can cook olivie')
+else:
+    print("We can't cook olivie")
+
+
+if set(Crab_stick_salad).issubset(products) is True:
+    print('We can cook crab stick salad')
+else:
+    print("We can't cook crab stick salad")
+
+
+if set(Boiled_eggs).issubset(products) is True:
+    print('We can cook boiled eggs')
+else:
+    print("We can't cook boiled eggs")
