@@ -5,7 +5,7 @@ products = [
     'sunflower oil', 'mayonnaise', 'onion', 'cod liver',
     'cucumbers'
 ]
-Liver_salad = [
+Cod_liver_salad = [
     'rice', 'cod liver', 'onion'
 ]
 Olivie = [
@@ -22,3 +22,9 @@ Crab_stick_salad = [
 Boiled_eggs = [
     'eggs', 'salt'
 ]
+
+
+if set(Cod_liver_salad).issubset(products) is True:
+    print('We can cook cod liver salad')
+else:
+    print('We can not cook cod liver salad')
